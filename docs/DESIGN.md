@@ -9,7 +9,7 @@ The whole tool ships as one static Linux/amd64 binary. There is no
 configuration file, no plugin loader, and no shared libraries. Everything
 is configured via flags or environment variables.
 
-The build marker baked into the binary (`b37eb2cd6eb4`) lets operators
+The build marker baked into the binary (`5eece5f458f8`) lets operators
 confirm that two artefacts that should be the same actually are.
 
 ## Predictable
@@ -40,4 +40,4 @@ NDJSON, which downstream pipelines can ingest verbatim.
 Builds are produced by an internal CI pipeline and uploaded to this
 repository. macOS and Windows artefacts are published through a separate tap.
 
-Built on `2026-06-12T10:29:23Z`.
+Built on `2026-06-12T13:12:56Z`.
