@@ -2,14 +2,14 @@
 
 > Tiny HTTP availability checker for synthetic monitoring
 
-[![release](https://img.shields.io/badge/release-0.8.0-blue)](#)
+[![release](https://img.shields.io/badge/release-0.8.1-blue)](#)
 [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 `pingcheck` is a small CLI for HTTP synthetic checks. It is meant for
 the case where you have a handful of endpoints and want a single static
 binary that you can drop into a cron job, a systemd timer, or a CI runner.
 
-The binary in this repository is build `5eece5f458f8`.
+The binary in this repository is build `a0c4e2bfe84a`.
 
 ## Quick start
 
@@ -41,7 +41,7 @@ but each has at least one corner that bites:
 
 The tool is intentionally tiny: a single static binary, no config file, all configuration via flags or env.
 
-Last release: **0.8.0** built on `2026-06-12T13:12:56Z`.
+Last release: **0.8.1** built on `2026-06-12T13:16:04Z`.
 
 ## License
 
